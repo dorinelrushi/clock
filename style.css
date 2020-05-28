@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+  :root{
+      --var : rgb(8, 15, 41);
+  }
+
+  body{
+      background-color:var(--var);
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: auto;
+  }
+  #clock{
+      margin: auto;
+      text-align: center;
+      font-size: 50px;
+      margin-top: 200px;
+      
+  }
+      
+     .bar {
+         width: 500px; 
+        border: 3px solid rgb(255, 255, 255); 
+            margin: 2em;
+          border-radius: 2.75px;
+          border-radius: 50px;
+          margin: 15px auto;
+        }
+     .progress {
+         background: rgb(255, 255, 255); 
+         height: 10px;
+         border-radius: 50px;
+        }
+
+        .pr{
+         text-align: center;
+        }
